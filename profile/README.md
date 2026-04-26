@@ -1,10 +1,10 @@
 # Model Context Protocol
 
-<!-- Optimized logo: Replaced 46KB PNG with theme-aware ~3KB SVGs and added dimensions to prevent CLS -->
+<!-- Optimized logo: Replaced 46KB PNG with theme-aware minified SVGs, added dimensions to prevent CLS, and fetchpriority="high" to improve LCP -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87">
+    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87" fetchpriority="high" loading="eager">
   </picture>
 </p>
 
