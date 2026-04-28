@@ -4,7 +4,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87">
+    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87" fetchpriority="high">
   </picture>
 </p>
 
