@@ -4,7 +4,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
-    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87">
+    <img src="assets/logo.svg" alt="Model Context Protocol Logo" width="600" height="87" fetchpriority="high" decoding="async">
   </picture>
 </p>
 
@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://modelcontextprotocol.io">Documentation</a> |
   <a href="https://spec.modelcontextprotocol.io">Specification</a> |
-  <a href="https://github.com/orgs/modelcontextprotocol/discussions">Discussions</a>
+  <a href="/orgs/modelcontextprotocol/discussions">Discussions</a>
 </p>
 
 The Model Context Protocol (MCP) is an open protocol that enables seamless integration between LLM applications and external data sources and tools. Whether you're building an AI-powered IDE, enhancing a chat interface, or creating custom AI workflows, MCP provides a standardized way to connect LLMs with the context they need.
@@ -25,29 +25,29 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 - 📚 Read the [Documentation](https://modelcontextprotocol.io) for guides and tutorials
 - 🔍 Review the [Specification](https://spec.modelcontextprotocol.io) for protocol details
 - 💻 Use our SDKs to start building:
-  - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-  - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
-  - [Java SDK](https://github.com/modelcontextprotocol/java-sdk)
-  - [Kotlin SDK](https://github.com/modelcontextprotocol/kotlin-sdk)
-  - [C# SDK](https://github.com/modelcontextprotocol/csharp-sdk)
+  - [TypeScript SDK](/modelcontextprotocol/typescript-sdk)
+  - [Python SDK](/modelcontextprotocol/python-sdk)
+  - [Java SDK](/modelcontextprotocol/java-sdk)
+  - [Kotlin SDK](/modelcontextprotocol/kotlin-sdk)
+  - [C# SDK](/modelcontextprotocol/csharp-sdk)
 
 ## Project Structure
 
-- [specification](https://github.com/modelcontextprotocol/specification) - Protocol specification and documentation
-- [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript implementation
-- [python-sdk](https://github.com/modelcontextprotocol/python-sdk) - Python implementation
-- [java-sdk](https://github.com/modelcontextprotocol/java-sdk) - Java implementation
-- [kotlin-sdk](https://github.com/modelcontextprotocol/kotlin-sdk) - Kotlin implementation
-- [csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk) - C# implementation
-- [docs](https://github.com/modelcontextprotocol/docs) - User documentation and guides
-- [create-kotlin-server](https://github.com/modelcontextprotocol/kotlin-sdk/tree/main/samples/kotlin-mcp-server) - Kotlin sample server
-- [servers](https://github.com/modelcontextprotocol/servers) - List of maintained servers
+- [specification](/modelcontextprotocol/specification) - Protocol specification and documentation
+- [typescript-sdk](/modelcontextprotocol/typescript-sdk) - TypeScript implementation
+- [python-sdk](/modelcontextprotocol/python-sdk) - Python implementation
+- [java-sdk](/modelcontextprotocol/java-sdk) - Java implementation
+- [kotlin-sdk](/modelcontextprotocol/kotlin-sdk) - Kotlin implementation
+- [csharp-sdk](/modelcontextprotocol/csharp-sdk) - C# implementation
+- [docs](/modelcontextprotocol/docs) - User documentation and guides
+- [create-kotlin-server](/modelcontextprotocol/kotlin-sdk/tree/main/samples/kotlin-mcp-server) - Kotlin sample server
+- [servers](/modelcontextprotocol/servers) - List of maintained servers
 
 ## Contributing
 
 We welcome contributions of all kinds! Whether you want to fix bugs, improve documentation, or propose new features, please see our [contributing guide](CONTRIBUTING.md) to get started.
 
-Have questions? Join the discussion in our [community forum](https://github.com/orgs/modelcontextprotocol/discussions).
+Have questions? Join the discussion in our [community forum](/orgs/modelcontextprotocol/discussions).
 
 ## About
 
