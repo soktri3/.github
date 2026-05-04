@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://modelcontextprotocol.io">Documentation</a> |
-  <a href="https://spec.modelcontextprotocol.io">Specification</a> |
+  <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Documentation</a> |
+  <a href="https://modelcontextprotocol.io/specification">Specification</a> |
   <a href="https://github.com/orgs/modelcontextprotocol/discussions">Discussions</a>
 </p>
 
@@ -22,8 +22,8 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 
 ## Getting Started
 
-- 📚 Read the [Documentation](https://modelcontextprotocol.io) for guides and tutorials
-- 🔍 Review the [Specification](https://spec.modelcontextprotocol.io) for protocol details
+- 📚 Read the [Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) for guides and tutorials
+- 🔍 Review the [Specification](https://modelcontextprotocol.io/specification) for protocol details
 - 💻 Use our SDKs to start building:
   - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
   - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
@@ -51,4 +51,4 @@ Have questions? Join the discussion in our [community forum](https://github.com/
 
 ## About
 
-The Model Context Protocol is an open source project run by [Anthropic, PBC.](https://anthropic.com) and open to contributions from the entire community.
+The Model Context Protocol is an open source project run by [Anthropic, PBC.](https://www.anthropic.com/) and open to contributions from the entire community.
