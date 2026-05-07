@@ -18,7 +18,7 @@
 
 ## Checklist
 <!-- Go over all the following points, and put an `x` in all the boxes that apply. -->
-- [ ] I have read the [MCP Documentation](https://modelcontextprotocol.io)
+- [ ] I have read the [MCP Documentation](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [ ] My code follows the repository's style guidelines
 - [ ] New and existing tests pass locally
 - [ ] I have added appropriate error handling
