@@ -1,6 +1,7 @@
 # Model Context Protocol
 
 <!-- Optimized logo: Replaced 46KB PNG with theme-aware ~3KB SVGs and added dimensions to prevent CLS -->
+<!-- Performance: Optimized SVGs and canonicalized URLs to eliminate HTTP redirects (saves 1+ RTT per click) -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
@@ -14,7 +15,7 @@
 
 <p align="center">
   <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Documentation</a> |
-  <a href="https://spec.modelcontextprotocol.io">Specification</a> |
+  <a href="https://modelcontextprotocol.io/specification/2025-11-25">Specification</a> |
   <a href="https://github.com/orgs/modelcontextprotocol/discussions">Discussions</a>
 </p>
 
@@ -23,7 +24,7 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 ## Getting Started
 
 - 📚 Read the [Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) for guides and tutorials
-- 🔍 Review the [Specification](https://spec.modelcontextprotocol.io) for protocol details
+- 🔍 Review the [Specification](https://modelcontextprotocol.io/specification/2025-11-25) for protocol details
 - 💻 Use our SDKs to start building:
   - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
   - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
