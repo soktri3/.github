@@ -12,9 +12,10 @@
   <strong>A protocol for seamless integration between LLM applications and external data sources</strong>
 </p>
 
+<!-- ⚡ Bolt: Canonicalized URLs to eliminate HTTP redirects and improve reliability -->
 <p align="center">
   <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Documentation</a> |
-  <a href="https://spec.modelcontextprotocol.io">Specification</a> |
+  <a href="https://modelcontextprotocol.io/specification/2025-11-25">Specification</a> |
   <a href="https://github.com/orgs/modelcontextprotocol/discussions">Discussions</a>
 </p>
 
@@ -23,7 +24,7 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 ## Getting Started
 
 - 📚 Read the [Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) for guides and tutorials
-- 🔍 Review the [Specification](https://spec.modelcontextprotocol.io) for protocol details
+- 🔍 Review the [Specification](https://modelcontextprotocol.io/specification/2025-11-25) for protocol details
 - 💻 Use our SDKs to start building:
   - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
   - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
