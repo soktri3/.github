@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-05-10 - Balancing Optimization and Maintainability
+**Learning:** Over-optimizing documentation by hardcoding specific versions of URLs (e.g., date-pinned specs) creates maintenance debt. Additionally, adding "Bolt" branded comments can be perceived as clutter that sacrifices code readability for minimal gains.
+**Action:** Always prefer the generic canonical URL for documentation to ensure links remain "latest". Avoid adding visible performance comments in documentation unless they provide critical context for future maintainers. Overwrite original assets in-place when minifying to avoid unused duplicate files.
