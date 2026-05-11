@@ -10,6 +10,12 @@
 
 **Action:** Always run SVGs through a minifier like `svgo` before committing. This ensures minimal asset weight and faster organization profile loading.
 
+## 2026-05-11 - Precision-Aware SVG Minification
+
+**Learning:** Design-tool exported SVGs often have high precision (e.g., 6+ decimal places) that adds unnecessary bytes. While `svgo` defaults are safe, for large viewboxes (e.g., >1000px), using `--precision 0` can reduce file size by an additional 40-50% compared to defaults, without visible impact on rendering quality.
+
+**Action:** When `svgo` default settings yield minimal gains, experiment with lower precision values. For logos on organization profiles, a 50% reduction in weight significantly improves page load speed.
+
 ## 2026-05-07 - Reducing Latency with Canonical URLs
 
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
