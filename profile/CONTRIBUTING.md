@@ -4,7 +4,7 @@ Thank you for your interest in contributing to the MCP!
 
 Please find the contribution guide for the repositories in the project in the respective repository:
 
-- [Specification Contributions](https://github.com/modelcontextprotocol/specification/blob/main/CONTRIBUTING.md)
+- [Specification Contributions](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CONTRIBUTING.md)
 - [TypeScript SDK Contributions](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/CONTRIBUTING.md)
 - [Python SDK Contributions](https://github.com/modelcontextprotocol/python-sdk/blob/main/CONTRIBUTING.md)
 - [Documentation Contributions](https://github.com/modelcontextprotocol/docs/blob/main/CONTRIBUTING.md)
