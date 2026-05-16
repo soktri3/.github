@@ -6,7 +6,8 @@ Thank you for your interest in contributing to the Model Context Protocol (MCP)!
 
 ### Issues and Discussions
 - For bugs and actionable items, please prefer creating an issue in the relevant repository
-- For open-ended or design discussions _specifically related to the specification_, use our [specification discussions](https://github.com/modelcontextprotocol/specification/discussions)
+<!-- Optimization: Link directly to the final URL to avoid an HTTP redirect -->
+- For open-ended or design discussions _specifically related to the specification_, use our [specification discussions](https://github.com/modelcontextprotocol/modelcontextprotocol/discussions)
 - For other general discussions that are not suitable as issues, use our [organization discussions](https://github.com/orgs/modelcontextprotocol/discussions)
 
 In all cases, please check for duplicates before creating new issues or discussions!
