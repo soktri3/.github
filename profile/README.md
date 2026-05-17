@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://modelcontextprotocol.io/docs/getting-started/intro">Documentation</a> |
-  <a href="https://spec.modelcontextprotocol.io">Specification</a> |
+  <a href="https://modelcontextprotocol.io/specification">Specification</a> |
   <a href="https://github.com/orgs/modelcontextprotocol/discussions">Discussions</a>
 </p>
 
@@ -23,7 +23,7 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 ## Getting Started
 
 - 📚 Read the [Documentation](https://modelcontextprotocol.io/docs/getting-started/intro) for guides and tutorials
-- 🔍 Review the [Specification](https://spec.modelcontextprotocol.io) for protocol details
+- 🔍 Review the [Specification](https://modelcontextprotocol.io/specification) for protocol details
 - 💻 Use our SDKs to start building:
   - [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
   - [Python SDK](https://github.com/modelcontextprotocol/python-sdk)
@@ -33,7 +33,7 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 
 ## Project Structure
 
-- [specification](https://github.com/modelcontextprotocol/modelcontextprotocol) - Protocol specification and documentation
+- [specification](https://github.com/modelcontextprotocol/modelcontextprotocol) - Protocol specification and documentation <!-- Optimized: Reduced redirect from /specification -->
 - [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript implementation
 - [python-sdk](https://github.com/modelcontextprotocol/python-sdk) - Python implementation
 - [java-sdk](https://github.com/modelcontextprotocol/java-sdk) - Java implementation
