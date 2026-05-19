@@ -33,7 +33,7 @@ The Model Context Protocol (MCP) is an open protocol that enables seamless integ
 
 ## Project Structure
 
-- [specification](https://github.com/modelcontextprotocol/modelcontextprotocol) - Protocol specification and documentation <!-- Optimized: Reduced redirect from /specification -->
+- [specification](https://github.com/modelcontextprotocol/modelcontextprotocol) - Protocol specification and documentation
 - [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript implementation
 - [python-sdk](https://github.com/modelcontextprotocol/python-sdk) - Python implementation
 - [java-sdk](https://github.com/modelcontextprotocol/java-sdk) - Java implementation
