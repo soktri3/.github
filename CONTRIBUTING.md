@@ -1,59 +1,16 @@
-# Contributing to Model Context Protocol
+# Contributing
 
-Thank you for your interest in contributing to the Model Context Protocol (MCP)! This document provides guidelines for contributing to any repository in the MCP organization.
+Thank you for your interest in contributing to the MCP!
 
-## How to Contribute
+Please find the contribution guide for the repositories in the project in the respective repository:
 
-### Issues and Discussions
-- For bugs and actionable items, please prefer creating an issue in the relevant repository
-- For open-ended or design discussions _specifically related to the specification_, use our [specification discussions](https://github.com/modelcontextprotocol/specification/discussions)
-- For other general discussions that are not suitable as issues, use our [organization discussions](https://github.com/orgs/modelcontextprotocol/discussions)
-
-In all cases, please check for duplicates before creating new issues or discussions!
-
-### Pull Requests
-We welcome PRs across all our repositories! When submitting:
-- Fork the repository
-- Follow existing code style
-- Include tests where applicable
-- Update documentation as needed
-- Link related issues
-
-## Development Guidelines
-
-### Code Quality
-- Follow the repository's established patterns
-- Include appropriate documentation
-- Add tests for new functionality
-- Handle errors appropriately
-
-### Documentation
-- Keep READMEs current
-- Document configuration options
-- Provide clear examples
-- Include setup instructions
-
-### Security
-- Follow security best practices
-- Implement proper input validation
-- Document security considerations
-
-## Getting Started
-
-1. Fork the repository
-2. Clone your fork:
-    ```bash
-    git clone https://github.com/your-username/repository-name.git
-    ```
-3. Create a feature branch:
-    ```bash
-    git checkout -b my-feature
-    ```
-4. Make your changes and commit:
-    ```bash
-    git commit -m "Description of changes"
-    ```
-5. Push and create a Pull Request
+- [Specification Contributions](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CONTRIBUTING.md)
+- [TypeScript SDK Contributions](https://github.com/modelcontextprotocol/typescript-sdk/blob/main/CONTRIBUTING.md)
+- [Python SDK Contributions](https://github.com/modelcontextprotocol/python-sdk/blob/main/CONTRIBUTING.md)
+- [Documentation Contributions](https://github.com/modelcontextprotocol/docs/blob/main/CONTRIBUTING.md)
+- [Create Python Server Contributions](https://github.com/modelcontextprotocol/create-python-server/blob/main/CONTRIBUTING.md)
+- [Create TypeScript Server Contributions](https://github.com/modelcontextprotocol/create-typescript-server/blob/main/CONTRIBUTING.md)
+- [Servers Contributions](https://github.com/modelcontextprotocol/servers/blob/main/CONTRIBUTING.md)
 
 ## Code of Conduct
 
@@ -62,5 +19,3 @@ Please note that this project is released with a [Code of Conduct](CODE_OF_CONDU
 ## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
-
-Thank you for contributing to Model Context Protocol!
