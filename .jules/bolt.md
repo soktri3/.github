@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2025-05-30 - Safe SVG Comment Insertion
+**Learning:** Manual rewriting of optimized SVGs using `write_file` or design tools can inadvertently modify path data or precision, leading to rendering glitches. Using `sed` for targeted comment insertion after the opening tag preserves the integrity of the optimized data.
+**Action:** Use `sed -i 's/<svg[^>]*>/&<!-- comment -->/'` to add performance documentation to SVGs without risking regressions in path rendering.
