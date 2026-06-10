@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-10 - SVG Optimization and Asset Hygiene
+**Learning:** Using `svgo --precision 0` is necessary for some simple logo assets in this repo to achieve any size reduction (approx. 47%), but it risks visual artifacts by rounding coordinates. Furthermore, committing verification artifacts (screenshots, helper scripts) to the repository is an anti-pattern that can increase repository size more than the optimization saves.
+**Action:** Always verify visual integrity of low-precision SVGs with high-contrast screenshots but DELETE all verification artifacts before submission. Stick strictly to the requested performance scope to avoid "scope creep" and potential rejection of unrelated fixes.
