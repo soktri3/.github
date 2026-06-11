@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-11 - SVG Precision and PR Cleanliness
+**Learning:** SVGO 4.0.1 may require `--precision 0` to achieve meaningful size reduction on certain vector assets where default settings yield 0% change. Additionally, verification scripts and screenshots used during development must be purged before submission to avoid repository bloat and maintain code quality.
+**Action:** Always test different precision levels if default SVGO output is unchanged. Ensure all auxiliary verification tools and binary artifacts are removed from the final patch.
