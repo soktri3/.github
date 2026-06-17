@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-17 - Precision Quirk in SVGO 4.x
+**Learning:** In SVGO version 4.0.1, the default precision or even `--precision 1` can result in 0% file size reduction for certain path-heavy logos. Specifically, organization assets in this repo required `--precision 0` to trigger any meaningful optimization.
+**Action:** If `svgo` reports 0% reduction, retry with `--precision 0` and perform visual verification to ensure coordinate rounding hasn't introduced artifacts.
