@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-25 - SVG Precision vs. Size Reduction
+**Learning:** For the specific organization logos in this repository, `svgo` (v4.0.1) requires `--precision 0` to achieve any measurable size reduction. Using the default precision or `--precision 1` resulted in 0% reduction, while `0` yielded a significant ~47% (5.1KB to 2.7KB) win.
+**Action:** When optimizing simple vector logos, always test `--precision 0` if default settings fail to reduce file size, and verify visual integrity with high-contrast screenshots.
