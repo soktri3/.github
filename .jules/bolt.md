@@ -15,3 +15,7 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-26 - SVGO 4.0.1 Precision and Verification
+**Learning:** In SVGO 4.0.1, the default precision settings may result in zero file size reduction for some path-heavy SVGs. Explicitly setting `--precision 0` is necessary for significant minification (e.g., 47% reduction). Additionally, visual verification of optimized SVGs via Playwright requires a small rendering delay (`page.wait_for_timeout(1000)`) to ensure all paths are drawn before the screenshot is captured.
+**Action:** Use `--precision 0` with `svgo` for maximum optimization of simple logos. Always include a rendering delay in automated visual verification scripts for vector assets.
