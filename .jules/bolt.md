@@ -15,3 +15,9 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-06-27 - Avoiding Repository Bloat in Documentation Repos
+
+**Learning:** Committing binary verification screenshots or process-heavy scripts (like Playwright verification scripts) to a documentation-only repository is considered a net performance negative due to repository bloat. These artifacts should be used for validation during development but must be deleted before submission.
+
+**Action:** Always clean up temporary verification scripts and screenshots before calling `submit`.
