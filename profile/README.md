@@ -1,6 +1,6 @@
 # Model Context Protocol
 
-<!-- Optimized logo: Replaced 46KB PNG with theme-aware ~3KB SVGs and added dimensions to prevent CLS -->
+<!-- Optimized logo: Replaced 46KB PNG with theme-aware ~2.7KB SVGs and added dimensions to prevent CLS -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
