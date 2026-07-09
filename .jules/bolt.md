@@ -15,3 +15,9 @@
 **Learning:** Using non-canonical URLs (e.g., those missing trailing slashes or using old repository names) triggers HTTP redirects (301, 302, 308). This adds at least one extra network round-trip (RTT), which can significantly delay page load or navigation on slower connections.
 
 **Action:** Always use the final, canonical destination URLs for documentation and external links. Verify these URLs with `curl` to ensure they return a 200 OK status without further redirects.
+
+## 2026-05-08 - Structural SVG Optimization beyond SVGO
+
+**Learning:** Standard SVGO optimizations might not always catch all structural redundancies, such as adjacent path elements with identical attributes. Merging these manually or via targeted scripts can further reduce DOM complexity and file size without visual regression.
+
+**Action:** After running SVGO, inspect SVG structure for mergeable paths with identical stroke or fill attributes. Always verify with visual regression tests using Playwright.
