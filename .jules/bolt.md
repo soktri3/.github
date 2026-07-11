@@ -21,3 +21,7 @@
 **Learning:** Standard SVGO optimizations might not always catch all structural redundancies, such as adjacent path elements with identical attributes. Merging these manually or via targeted scripts can further reduce DOM complexity and file size without visual regression.
 
 **Action:** After running SVGO, inspect SVG structure for mergeable paths with identical stroke or fill attributes. Always verify with visual regression tests using Playwright.
+
+## 2025-07-11 - Artifact Management and Path Sanitization
+**Learning:** Including verification scripts, screenshots, and backup files in a PR is considered "workspace litter" and will be rejected. Additionally, when using `sed` to remove redundant relative moves like `m0 0` in SVGs, it's safer to replace them with `m` to prevent accidental coordinate concatenation.
+**Action:** Always delete all temporary verification artifacts and backups before submission. Ensure SVG path data remains syntactically valid after string replacements.
