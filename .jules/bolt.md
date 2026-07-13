@@ -21,3 +21,7 @@
 **Learning:** Standard SVGO optimizations might not always catch all structural redundancies, such as adjacent path elements with identical attributes. Merging these manually or via targeted scripts can further reduce DOM complexity and file size without visual regression.
 
 **Action:** After running SVGO, inspect SVG structure for mergeable paths with identical stroke or fill attributes. Always verify with visual regression tests using Playwright.
+
+## 2026-05-09 - Scope Sensitivity in Performance Reviews
+**Learning:** In documentation-centric repositories, micro-optimizations like link canonicalization may be dismissed as maintenance rather than performance if not paired with measurable asset improvements, despite saving network round-trips.
+**Action:** When working on profile repos, always prioritize high-impact asset optimizations (like SVG structural simplification) alongside latency improvements to satisfy performance-focused review criteria.
