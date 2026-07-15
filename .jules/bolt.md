@@ -21,3 +21,9 @@
 **Learning:** Standard SVGO optimizations might not always catch all structural redundancies, such as adjacent path elements with identical attributes. Merging these manually or via targeted scripts can further reduce DOM complexity and file size without visual regression.
 
 **Action:** After running SVGO, inspect SVG structure for mergeable paths with identical stroke or fill attributes. Always verify with visual regression tests using Playwright.
+
+## 2026-05-09 - Documentation Link Canonicalization Rejected
+
+**Learning:** In documentation-only repositories, link canonicalization (e.g., removing `.html` extensions or adding trailing slashes to avoid HTTP redirects) is often rejected by reviewers as "trivial" or having "zero impact" on the application's performance, even if it technically reduces network latency.
+
+**Action:** Focus on tangible asset optimizations (like SVG minification) or structural code improvements rather than documentation links when acting as "Bolt" in this repository.
