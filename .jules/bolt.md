@@ -21,3 +21,9 @@
 **Learning:** Standard SVGO optimizations might not always catch all structural redundancies, such as adjacent path elements with identical attributes. Merging these manually or via targeted scripts can further reduce DOM complexity and file size without visual regression.
 
 **Action:** After running SVGO, inspect SVG structure for mergeable paths with identical stroke or fill attributes. Always verify with visual regression tests using Playwright.
+
+## 2026-05-09 - Aggressive SVG Structural Pruning and Rendering Complexity Reduction
+
+**Learning:** Removing redundant drawing instructions (such as `v0` or `h0` zero-length path draws, or nested `m0 0` move sequences) and replacing "there-and-back" strokes with a simple move (e.g. changing `m0 0 51-51` back over a line segment to just `m51-51`) reduces both the asset file size and the browser SVG rendering workload (fewer path segments to paint) with absolutely zero visual change. Additionally, removing `shape-rendering="geometricPrecision"` is fully safe since standard web browsers render high-quality anti-aliased SVGs by default, which saves 37 bytes.
+
+**Action:** Prune zero-length strokes (`v0`, `h0`) and replace redundant backward drawing lines with simple moves (`m`) to reduce browser rendering workload and file size.
